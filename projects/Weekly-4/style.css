@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 90px;
+    /* border: 1px solid black; */
+    position: fixed;
+    top: 0px;
+}
+
+.navbar-brand{
+    margin-left: 7%;
+    width: 100px;
+}
+
+.nav-link{
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+.nav-item:hover{
+    color: red;
+}
+
+#a1{
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#a1:hover{
+    color: #ff2022;
+}
+
+.collapse{
+    margin-left: 17%;
+}
+
+.collapse .nav-item{
+    font-size: 14px;
+    margin-inline: 10px;
+}
+
+#a2{
+    margin-left: 250px;
+}
+
+#a2{
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#a2:hover{
+    color: #ff2022;
+}
+
+.navbar{
+    border: 1px solid black;
+}
+
+#container1{
+    height: 700px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #f0f0f2;
+}
+
+#r1{
+    height: 100%;
+    border: 1px solid black;
+}
+
+#c1{
+    height: 100%;
+    border: 1px solid black;
+}
+
+#c2{
+    height: 100%;
+    border: 1px solid black;
+    overflow: hidden;
+}       
+
+.r1{
+    height: 50%;
+    width: 82%;
+    /* border: 1px solid black; */
+}
+#c1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.txt1{
+    font-family: "Josefin Sans", sans-serif;
+}
+.par1{
+    font-size: 18px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.btn1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 5px; */
+    background: #183153;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    margin-top: 5%;
+
+}
+  
+.btn1:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: red;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+  }
+  
+.btn1:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+  }
+  
+.btn1 span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 18px 25px;
+    color: #fff;
+    font-size: 1.125em;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover span {
+    color: white;
+    animation: scaleUp 0.3s ease-in-out;
+  }
+  
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(0.95);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+
+#c2 img{
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    animation: animate1 3s linear infinite;
+}
+
+@keyframes animate1{
+    30%{
+        transform: scale(1.1);
+    }
+    70%{
+        transform: scale(1);
+    }
+}
+
+
+.main1{
+    width: 100%;
+    height: 900px;
+    border: 1px solid;
+}
+
+.box1{
+    width: 100%;
+    height: 100px;
+    border: 1px solid;
+    margin-top: 3%;
+}
+
+.txt2{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 100;
+    margin-top: 1%;
+    margin-left: 8%;
+}
+
+
+.box2{
+    width: 100%;
+    height: 60%;
+    border: 1px solid;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.subbox1{
+    width: 25%;
+    height: 500px;
+    border: 1px solid;
+}
+
+.subbox2{
+    width: 25%;
+    height: 500px;
+    border: 1px solid;
+}
+
+.subbox3{
+    width: 25%;
+    height: 500px;
+    border: 1px solid;
+}
