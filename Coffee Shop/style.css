@@ -1,0 +1,628 @@
+.navbar-nav{
+    margin-left: 10%;
+}
+.nav-item{
+    margin-left: 5%;
+    font-family:monospace;
+}   
+.nav-item a{
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.nav-item a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.icon1{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-top: 1.5%;
+    margin-left: 4%;
+}
+
+
+.main1{
+    width: 100%;
+    height: 110vh;
+    /* border: 1px solid; */
+    background-image: url(img/bg_main_slider.jpg);
+    background-size: cover;
+    display: flex;
+    /* background-position: center; */
+}
+
+.b1{
+    width: 60%;
+    height: 600px;
+    /* border: 1px solid; */
+}
+.txt1{
+    font-family: Grand Hotel;
+    font-size: 80px;
+    margin-top: 10%;
+    margin-left: 10%;
+    letter-spacing: 1px;
+    color: #423930;
+}
+.txt2{
+    font-size: 130px;
+    margin-left: 10%;
+    color: #423930;
+    letter-spacing: 2px;
+    margin-top: -5%;
+    font-family: droid serif;
+    font-weight: bold;
+}
+.txt3{
+    font-family: Grand Hotel;
+    margin-left: 12%;
+    margin-top: -5%;
+    font-size: 83px;
+    letter-spacing: 1px;
+}
+#icon2{
+    margin-top: -37%;
+    margin-left: 70%;
+}
+#heart{
+    margin-left: 35%;
+}
+#c1{
+    margin-top: -20%;
+}
+.txt4{
+    font-size: 20px;
+    font-family: droid serif;
+    font-weight: bold;
+    position: relative;
+    top: -15%;
+    left: 600px;
+}
+
+.tb1{
+    width: 500px;
+    height: 80px;
+    border: 1px solid;
+    margin-top: -15%;
+    margin-left: 69%;
+}
+
+.b2{
+    width: 40%;
+    height: 600px;
+    /* border: 1px solid; */
+}
+#c2{
+    margin-left: 60%;
+    margin-top: -10%;
+}
+#photo1{
+    position: relative;
+     top: 0px;
+     animation: animate 3s linear infinite;
+}
+@keyframes animate{
+    50%{
+        top: 15px;
+    }
+}
+
+
+.main2{
+    width: 100%;
+    height: 64vh;
+    border: 1px solid white;
+}
+.box1{
+    width: 90%;
+    height: 420px;
+    /* border: 1px solid red; */
+    margin-left: 5%;
+}
+.txt5{
+    font-family: serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 10%;
+}
+
+.par1{
+    color: #A8A3A1;
+    margin-top: 3%;
+    font-size: 16px;
+    font-weight: 600;
+    /* letter-spacing: 1px; */
+    line-height: 25px;
+}
+.btn1{
+    width: 250px;
+    height: 50px;
+    border: 1px solid green;
+    background-color: transparent;
+    color: green;
+    /* font-family: serif; */
+    font-weight: 500;
+    margin-top: 4%;
+}
+.btn1:hover{
+    border: 1px solid;
+    color: black;
+}
+
+
+.main3{
+    width: 100%;
+    height: 130vh;
+    border: 1px solid white;
+    background-image: url(img/bg_home_paralax.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box2{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid; */
+    display: flex;
+    margin-top: 8%;
+}
+.b3{
+    width: 40%;
+    height: 600px;
+    /* border: 1px solid red; */
+}
+#photo2{
+    position: relative;
+     top: 0px;
+     animation: animate 3s linear infinite;
+}
+@keyframes animate{
+    50%{
+        top: 15px;
+    }
+}
+.b4{
+    width: 60%;
+    height: 600px;
+    /* border: 1px solid red; */
+}
+.txt6{
+    font-size: 70px;
+    font-family: serif;
+    font-weight: 800;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.txt7{
+    font-family: Grand Hotel;
+    font-size: 70px;
+    margin-left: 20%;
+}
+.par2{
+    margin-left: 20%;
+    font-weight: 500;
+}
+.txt8{
+    font-family: Grand Hotel;
+    font-size: 50px;
+    margin-left: 20%;
+    
+}
+.txt8:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.main4{
+    width: 100%;
+    height: 64vh;
+    /* border: 1px solid; */
+}
+.box3{
+    width: 90%;
+    height: 420px;
+    /* border: 1px solid red; */
+    margin-left: 5%;
+}
+.txt9{
+    font-family: serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 10%;
+}
+
+.par3{
+    color: #A8A3A1;
+    margin-top: 3%;
+    font-size: 16px;
+    font-weight: 600;
+    /* letter-spacing: 1px; */
+    line-height: 25px;
+}
+.btn2{
+    width: 250px;
+    height: 50px;
+    border: 1px solid green;
+    background-color: transparent;
+    color: green;
+    /* font-family: serif; */
+    font-weight: 500;
+    margin-top: 4%;
+}
+.btn2:hover{
+    border: 1px solid;
+    color: black;
+}
+
+
+.main5{
+    width: 100%;
+    height: 210vh;
+    border: 1px solid white;
+    background-image: url(img/bg_04.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box4{
+    width: 100%;
+    height: 1050px;
+    /* border: 1px solid; */
+    margin-top: 4%;
+    
+}
+.mb1{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid red; */
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sb1{
+    width: 30%;
+    height: 350px;
+    /* border: 1px solid blue; */
+}
+#si1{
+    margin-left: 17%;
+    height: 230px;
+}
+.tp1{
+    font-size: 35px;
+    font-family: Grand Hotel;
+    font-weight: 600;
+    margin-left: 35%;
+    color: #453E3C;
+}
+.tp1:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.sb2{
+    width: 30%;
+    height: 350px;
+    /* border: 1px solid blue;  */
+}
+.tp2{
+    font-size: 35px;
+    font-family: Grand Hotel;
+    font-weight: 600;
+    margin-left: 19%;
+    color: #453E3C;
+}
+.tp2:hover{
+    color: green;
+    cursor: pointer;
+}
+
+
+.sb3{
+    width: 30%;
+    height: 350px;
+    /* border: 1px solid blue; */
+}
+.tp3{
+    font-size: 35px;
+    font-family: Grand Hotel;
+    font-weight: 600;
+    margin-left: 37%;
+    color: #453E3C; 
+}
+.tp3:hover{
+    color: green;
+    cursor: pointer;
+}
+
+
+
+
+
+.mb2{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid red; */
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sb4{
+    width: 30%;
+    height: 350px;
+    /* border: 1px solid; */
+}
+.tp4{
+    font-size: 35px;
+    font-family: Grand Hotel;
+    font-weight: 600;
+    margin-left: 20%;
+    color: #453E3C; 
+}
+.tp4:hover{
+    color: green;
+    cursor: pointer;
+}
+.sb5{
+    width: 30%;
+    height: 350px;
+    /* border: 1px solid; */
+}
+.tp5{
+    font-size: 35px;
+    font-family: Grand Hotel;
+    font-weight: 600;
+    margin-left: 30%;
+    color: #453E3C;
+}
+.tp5:hover{
+    color: green;
+    cursor: pointer;
+}
+.sb6{
+    width: 30%;
+    height: 350px;
+    /* border: 1px solid; */
+}
+.tp6{
+    font-size: 35px;
+    font-family: Grand Hotel;
+    font-weight: 600;
+    margin-left: 35%;
+    color: #453E3C;
+}
+.tp6:hover{
+    color: green;
+    cursor: pointer;
+}
+.mb3{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid red; */
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sb7{
+    width: 30%;
+    height: 350px;
+    /* border: 1px solid; */
+}
+.tp7{
+    font-size: 35px;
+    font-family: Grand Hotel;
+    font-weight: 600;
+    margin-left: 37%;
+    color: #453E3C;
+}
+.tp7:hover{
+    color: green;
+    cursor: pointer;
+}
+.sb8{
+    width: 30%;
+    height: 350px;
+    /* border: 1px solid; */
+}
+.tp8{
+    font-size: 35px;
+    font-family: Grand Hotel;
+    font-weight: 600;
+    margin-left: 33%;
+    color: #453E3C;
+}
+.tp8:hover{
+    color: green;
+    cursor: pointer; 
+}
+.sb9{
+    width: 30%;
+    height: 350px;
+    /* border: 1px solid; */
+}
+.tp9{
+    font-size: 35px;
+    font-family: Grand Hotel;
+    font-weight: 600;
+    margin-left: 33%;
+    color: #453E3C;
+}
+.tp9:hover{
+    color: green;
+    cursor: pointer; 
+}
+
+
+.main6{
+    width: 100%;
+    height: 106vh;
+    /* border: 1px solid; */
+    background-color: #211F1E;
+}
+.box5{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.mb4{
+    width: 50%;
+    height: 700px;
+    /* border: 1px solid white; */
+}
+.photo3{
+    width: 100%;
+    height: 600px;
+}
+.photo3 img{
+    margin-left: 10%;
+}
+
+.mb5{
+    width: 50%;
+    height: 700px;
+    /* border: 1px solid blue; */
+}
+#photo4{
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.txt10{
+    color: white;
+    font-family: serif;
+    font-size: 100px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.par4{
+    color: white;
+    font-size: 30px;
+    font-family: serif;
+    margin-left: 10%;
+}
+.par5{
+    color: white;
+    margin-left: 10%;
+}
+.btn3{
+    width: 180px;
+    height: 50px;
+    border: 1px solid#ECB881;
+    background-color: transparent;
+    color: #ECB881;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-weight: 500;
+}
+
+.main7{
+    width: 100%;
+    height: 450px;
+    /* border: 1px solid; */
+}
+.txt11{
+    font-family: serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin-top: 5%;
+}
+
+.box6{
+    width: 85%;
+    height: 300px;
+    /* border: 1px solid; */
+    margin-top: 2%;
+    margin-left:7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tb2{
+    width: 22%;
+    height: 300px;
+    /* border: 1px solid; */
+}
+.p1{
+    color: #ECB881;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 20%;
+}
+.p2{
+    font-family: serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+}
+.p2:hover{
+    color: green;
+    cursor: pointer;
+}
+.p3{
+    color: #AEA9A7;
+    font-weight: bold;
+}
+.tb3{
+    width: 22%;
+    height: 300px;
+    /* border: 1px solid; */
+}
+.tb4{
+    width: 22%;
+    height: 300px;
+    /* border: 1px solid; */
+}
+.tb5{
+    width: 22%;
+    height: 300px;
+    /* border: 1px solid; */
+}
+
+
+footer{
+    width: 100%;
+    height: 80vh;
+    border: 1px solid;
+    background-color: #211F1E;
+}
+#fl1{
+    margin-top: 8%;
+}
+.fp1{
+    color: #9EA193;
+    margin-top: 3%;
+}
+.fp2{
+    color: white;
+    margin-left: -12%;
+    margin-top: 5%;
+}
+.fp3{
+    color: white;
+    margin-top: -3%;
+    margin-left: 15%;
+}
+
+.fp4{
+    color: white;
+    margin-left: -12%;
+    margin-top: -1%;
+}
+.fp5{
+    color: white;
+    margin-top: -3%;
+    margin-left: 13.5%;
+}
+
+#icon3{
+    font-size: 35px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+#icon3:hover{
+    color: #ECB881;
+    cursor: pointer;
+}
